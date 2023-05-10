@@ -1,0 +1,115 @@
+.keyboard-container {
+    /* margin-top: 500px; */
+    /* border-width: 1px; */
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 200px;
+
+    /* align-items: center; */
+    height: 500px;
+
+
+    /* justify-content: center; */
+
+
+    
+}
+
+.col-1 {
+    position: absolute;
+    top: 70px; left: 48px;
+}
+
+.col-2 {
+    position: absolute;
+    top: 70px; left: 100px;
+}
+
+.col-3 {
+    position: absolute;
+    top: 55px; left: 152px;
+}
+
+.col-4 {
+    position: absolute;
+    top: 45px; left: 204px;
+}
+
+.col-5 {
+    position: absolute;
+    top: 55px; left: 256px;
+}
+
+.col-6 {
+    position: absolute;
+    top: 65px; left: 308px;
+}
+
+
+.col-7 {
+    position: absolute;
+    top: 70px; right: 48px;
+}
+
+.col-8 {
+    position: absolute;
+    top: 70px; right: 100px;
+}
+
+.col-9 {
+    position: absolute;
+    top: 55px; right: 152px;
+}
+
+.col-10 {
+    position: absolute;
+    top: 45px; right: 204px;
+}
+
+.col-11 {
+    position: absolute;
+    top: 55px; right: 256px;
+}
+
+.col-12 {
+    position: absolute;
+    top: 65px; right: 308px;
+}
+
+
+.left-thumb-1 {
+    position: absolute;
+    top: 250px;
+    left: 204px;
+}
+
+.left-thumb-2 {
+    position: absolute;
+    top: 250px;
+    left: 256px;
+}
+
+.left-thumb-3 {
+    position: absolute;
+    top: 250px;
+    left: 308px;
+}
+
+
+.right-thumb-1 {
+    position: absolute;
+    top: 250px;
+    right: 204px;
+}
+
+.right-thumb-2 {
+    position: absolute;
+    top: 250px;
+    right: 256px;
+}
+
+.right-thumb-3 {
+    position: absolute;
+    top: 250px;
+    right: 308px;
+}
