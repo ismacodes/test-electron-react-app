@@ -2,40 +2,40 @@ import React from "react";
 import KeyCap from "./KeyCap";
 import "../sytles/Keyboard.css";
 
-const Keyboard = () => {
+const Keyboard = ({ handleCustomize }) => {
     return (
         <div className="keyboard-container">
             <div className="relative">
                 {/* Left half of keyboard */}
                 <div className="col-1">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={0} onClick={handleCustomize} />
+                    <KeyCap id={1} onClick={handleCustomize} />
+                    <KeyCap id={2} onClick={handleCustomize} />
                 </div>
                 <div className="col-2">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={3} onClick={handleCustomize} />
+                    <KeyCap id={4} onClick={handleCustomize} />
+                    <KeyCap id={5} onClick={handleCustomize} />
                 </div>
                 <div className="col-3">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={6} onClick={handleCustomize}/>
+                    <KeyCap id={7} onClick={handleCustomize}/>
+                    <KeyCap id={8} onClick={handleCustomize}/>
                 </div>
                 <div className="col-4">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={9} onClick={handleCustomize}/>
+                    <KeyCap id={10} onClick={handleCustomize}/>
+                    <KeyCap id={11} onClick={handleCustomize}/>
                 </div>
                 <div className="col-5">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={12} onClick={handleCustomize}/>
+                    <KeyCap id={13} onClick={handleCustomize}/>
+                    <KeyCap id={14} onClick={handleCustomize}/>
                 </div>
                 <div className="col-6">
-                    <KeyCap />
-                    <KeyCap />
-                    <KeyCap />
+                    <KeyCap id={15} onClick={handleCustomize}/>
+                    <KeyCap id={16} onClick={handleCustomize}/>
+                    <KeyCap id={17} onClick={handleCustomize}/>
                 </div>
 
                 {/* Right half of keyboard */}
@@ -59,7 +59,7 @@ const Keyboard = () => {
                     <KeyCap />
                     <KeyCap />
                 </div>
-                <div className="col-11">
+            <div className="col-11">
                     <KeyCap />
                     <KeyCap />
                     <KeyCap />
@@ -72,13 +72,13 @@ const Keyboard = () => {
 
                 {/* Left side thumb buttons */}
                 <div className="left-thumb-1">
-                    <KeyCap />
+                    <KeyCap id={17} onClick={handleCustomize}/>
                 </div>
                 <div className="left-thumb-2">
-                    <KeyCap />
+                    <KeyCap id={18} onClick={handleCustomize}/>
                 </div>
                 <div className="left-thumb-3">
-                    <KeyCap />
+                    <KeyCap id={19} onClick={handleCustomize}/>
                 </div>
 
                 {/* Right side thumb buttons */}
