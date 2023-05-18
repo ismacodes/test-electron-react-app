@@ -72,13 +72,13 @@ const Keyboard = ({ handleCustomize }) => {
 
                 {/* Left side thumb buttons */}
                 <div className="left-thumb-1">
-                    <KeyCap id={17} onClick={handleCustomize}/>
-                </div>
-                <div className="left-thumb-2">
                     <KeyCap id={18} onClick={handleCustomize}/>
                 </div>
-                <div className="left-thumb-3">
+                <div className="left-thumb-2">
                     <KeyCap id={19} onClick={handleCustomize}/>
+                </div>
+                <div className="left-thumb-3">
+                    <KeyCap id={20} onClick={handleCustomize}/>
                 </div>
 
                 {/* Right side thumb buttons */}
